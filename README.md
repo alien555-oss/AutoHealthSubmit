@@ -21,6 +21,8 @@ Automatic submit daily health data
   - `MAIL_RESULT` -- 用来接收打卡情况的邮箱，用`,`分隔多个邮箱
 ![操作流程](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/操作流程.png)
 3. **点`Action`，里面会提示你Action是`关闭(Disabled)`的，你要`Enable`它**
+   ![开启Action](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/开启Action.png)
+   ![开启Action2](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/开启Action2.png)
 </details>
 
 <details>
