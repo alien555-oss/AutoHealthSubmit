@@ -18,7 +18,7 @@ Automatic submit daily health data
   - `USERPASS` -- 密码
   - `MAIL_USERNAME` -- 用来发送邮件的163邮箱
   - `MAIL_PASSWORD` -- 163邮箱的授权密码(不是登录密码)
-  - `MAIL_RESULT` -- 用来接收打卡情况的邮箱
+  - `MAIL_RESULT` -- 用来接收打卡情况的邮箱，用`,`分隔多个邮箱
 ![操作流程](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/操作流程.png)
 3. **点`Action`，里面会提示你Action是`关闭(Disabled)`的，你要`Enable`它**
 </details>
