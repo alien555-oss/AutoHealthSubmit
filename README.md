@@ -5,11 +5,16 @@ Automatic submit daily health data
 
 **如果你`不论打卡是否失败`都要邮件通知，看下文**
 <details>
-<summary>配置</summary>
+<summary>配置(点击展开)</summary>
 
 0. 首先你要注册个163邮箱来发送邮件
+<details>
+<summary>163邮箱注册流程</summary>
+
 ![开通邮件服务](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/Docs/开通邮件服务.png)
 ![授权](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/Docs/授权.png)
+</details>
+
 1. **点击右上角的`Fork`复制一份你的副本**
    ![Fork](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/Docs/Fork.png)
 2. 然后在`Settings->Secrets`里面添加你的账号密码和邮箱信息
