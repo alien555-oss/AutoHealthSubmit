@@ -10,7 +10,8 @@ Automatic submit daily health data
 0. 首先你要注册个163邮箱来发送邮件
 ![开通邮件服务](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/Docs/开通邮件服务.png)
 ![授权](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/Docs/授权.png)
-1. 点击右上角的`Fork`复制一份你的副本
+1. **点击右上角的`Fork`复制一份你的副本**
+   ![Fork](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/Docs/Fork.png)
 2. 然后在`Settings->Secrets`里面添加你的账号密码和邮箱信息
 
   在 New Secret 的 Name 填下面`大写`的变量名称，不能变
