@@ -7,9 +7,9 @@ Automatic submit daily health data
 <details>
 <summary>配置(点击展开)</summary>
 
-0. 首先你要注册个163邮箱来发送邮件
+0. 首先你要有个开通邮件服务的邮箱来发送邮件
 <details>
-<summary>163邮箱注册流程</summary>
+<summary>邮件服务开通流程</summary>
 
 ![开通邮件服务](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/Docs/开通邮件服务.png)
 ![授权](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/Docs/授权.png)
@@ -22,8 +22,8 @@ Automatic submit daily health data
   在 New Secret 的 Name 填下面`大写`的变量名称，不能变
   - `USERID` -- 学号
   - `USERPASS` -- 密码
-  - `MAIL_USERNAME` -- 用来发送邮件的163邮箱
-  - `MAIL_PASSWORD` -- 163邮箱的授权密码(不是登录密码)
+  - `MAIL_USERNAME` -- 用来发送邮件的邮箱
+  - `MAIL_PASSWORD` -- 邮件服务的授权码(不是登录密码)
   - `MAIL_RESULT` -- 用来接收打卡情况的邮箱，用`,`分隔多个邮箱
 ![操作流程](https://github.com/Windmill-City/AutoHealthSubmit/blob/main/Docs/操作流程.png)
 3. **点`Action`，里面会提示你Action是`关闭(Disabled)`的，你要`Enable`它**
