@@ -22,20 +22,20 @@ def login(chrome, usr_name, pwd):
 
     btn = chrome.find_element_by_xpath("//button")
     btn.click()
-    WebDriverWait(chrome, 20, 0.5).until(ec.staleness_of(btn))
+    WebDriverWait(chrome, 60, 0.5).until(ec.staleness_of(btn))
 
 
 def submit(chrome):
     logger.info("Start submit")
     ele = chrome.find_element_by_id("loading")
-    WebDriverWait(chrome, 20, 0.5).until(ec.invisibility_of_element(ele))
+    WebDriverWait(chrome, 60, 0.5).until(ec.invisibility_of_element(ele))
     # 本人承诺XXX
     ele = chrome.find_element_by_id("10000")
     webdriver.ActionChains(chrome).move_to_element(ele).click(ele).perform()
     # 提交
     ele = chrome.find_element_by_id("tj")
     webdriver.ActionChains(chrome).move_to_element(ele).click(ele).perform()
-    WebDriverWait(chrome, 20, 0.5).until(ec.staleness_of(ele))
+    WebDriverWait(chrome, 60, 0.5).until(ec.staleness_of(ele))
 
 
 def is_completed(chrome):
